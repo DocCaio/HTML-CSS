@@ -1,0 +1,11 @@
+auto-fill
+Preenche a linha do Grid Container com novas colunas sempre que há espaço para caber mais uma, o objetivo é preencher a linha com o máximo de colunas possível. Caso o viewport seja maior do que a largura do Grid container e número de colunas existentes.
+
+
+Essa forma, haverá um espaço sobrando do lado direito, as colunas não expandirão o tamanho para preencher esse vazio.
+
+auto-fit
+Ajusta o tamanho das colunas para ocupar o tamanho total do espaço disponível do container, expandindo-as para que não fique nenhum espaço sobrando. Independente do tamanho da tela.
+
+
+https://cursos.alura.com.br/course/css-construindo-layouts-grid/task/111151

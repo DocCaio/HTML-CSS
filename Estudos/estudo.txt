@@ -1,0 +1,125 @@
+https://flexboxfroggy.com/
+
+Aplicando a propriedade display: flex na section a transforma em um flex-container,
+ permitindo que todos os elementos descendentes diretos possam ser remanejados com 
+as propriedades justify-content e align-items.
+
+Nós vimos nesta aula o que é um flex container e como dispor os elementos dentro deste container utilizando as propriedades 
+justify-content e align-items. Vamos relembrar o que foi visto e também adicionar alguns comentários:
+
+A propriedade display: flex e o flex container:
+
+Aplicamos a propriedade display: flex no elemento que irá se transformar em um flex container.
+Elementos que são flex container podem usar propriedades de disposição de elementos como justify-content e align-items.
+Importante lembrar que as propriedades justify-content e align-items apenas movimentam as tags filhas diretas do flex container.
+
+A propriedade justify-content:
+
+Adicionamos essa propriedade dentro de um flex container para dispor elementos no seu fluxo horizontal.
+Alguns valores aceitos: flex-start (valor padrão), flex-end, center, space-around, space-evenly e space-between.
+Tenha em mente que a propriedade movimenta os elementos dentro do flex container simplesmente redistribuindo o espaço disponível.
+ Se não existir um espaço vazio dentro do flex container, essa propriedade não vai ter efeito.
+
+Isso acontece principalmente quando os conteúdos dos elementos excedem as dimensões do flex container.
+
+Como essa propriedade trabalha apenas com a redistribuição do espaço restante, ela não permite o controle preciso da 
+distância entre elementos. Para um espaçamento mais preciso, é necessário utilizar as propriedades margin ou padding ou as duas 
+no elemento específico que você precisa espaçar.
+
+A propriedade align-items:
+
+Adicionamos essa propriedade dentro de um flex container para trabalhar com o alinhamento vertical dos elementos.
+Alguns valores aceitos: flex-start, flex-end, center e stretch (valor padrão).
+
+
+O que é um flex-container;
+
+Flex container é o elemento que recebe grande parte das propriedades de posicionamento para suas tags filhas;
+As propriedades de posicionamento justify-content e align-items;
+
+justify-content distribui o espaço restante do flex container entre suas tags filhas e align-items alinha verticalmente
+ as tags filhas, ou seja, são propriedades de posicionamento horizontal e vertical respectivamente.
+
+Use justify-content again to help these frogs get to their lilypads. Remember that this CSS property aligns items horizontally and accepts the following values:
+
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+space-between: Items display with equal spacing between them.
+space-around: Items display with equal spacing around them.
+space-evenly : espaçamento entre os itens.
+stretch: Lines are stretched to fit the container.
+
+use align-items to help the frogs get to the bottom of the pond. This CSS property aligns items vertically and accepts the following values:
+
+flex-start: Items align to the top of the container.
+flex-end: Items align to the bottom of the container.
+center: Items align at the vertical center of the container.
+baseline: Items display at the baseline of the container.
+stretch: Items are stretched to fit the container.
+
+ using flex-direction. This CSS property defines the direction items are placed in the container, and accepts the following values:
+
+row: Items are placed the same as the text direction.
+row-reverse: Items are placed opposite to the text direction.
+column: Items are placed top to bottom.
+column-reverse: Items are placed bottom to top.
+
+Another property you can apply to individual items is align-self. This property accepts the same 
+values as align-items and its value for the specific item.
+
+ Spread them out using the flex-wrap property, which accepts the following values:
+
+nowrap: Every item is fit to a single line.
+wrap: Items wrap around to additional lines.
+wrap-reverse: Items wrap around to additional lines in reverse.
+
+flex-flow: adicionar mais de uma função dos demais.
+ that the shorthand property flex-flow was created to combine them.
+ This shorthand property accepts the value of the two properties separated by a space.
+
+Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal.
+
+justify-content                
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content   
+
+
+flex container:
+
+justify-content, align-items, flex-direction, flex-wrap
+
+flex items:
+
+order, flex-grow, flex-shrink
+
+A propriedade display: flex pode ser usada nos dois. Se for usada em um flex item esse elemento será 
+tanto um flex item quanto um flex container.
+
+
+
+
+flex-wrap: wrap-reverse; /* quebra a linha de maneira reversa (invertendo a ordem da segunda linha) */
+flex-direction: column-reverse; /* (criar uma coluna na ordem inversa) */
+justify-content: center; /* (centraliza no eixo central - eixo Y) */
+align-content: space-between; /* (alinha os sapos amarelos pelo espaço entre os itens) */
+
+
+
+
+Podemos distribuir os elementos dentro do pai de diversas formas, podemos por exemplo:
+
+Colocar todo espaço à esquerda, jogando o conteúdo para direita com justify-content: flex-end.
+
+Colocar todo espaço à direita, jogando o conteúdo para esquerda com justify-content: flex-start (que é o padrão).
+
+Colocar todo espaço à esquerda e à direita, jogando o conteúdo para o meio com justify-content: center.
+
+Colocar todo espaço entre os elementos como vimos antes usando justify-content: space-between.
+
+E uma possibilidade bem interessante também é colocar o espaço em volta dos elementos. Podemos usar o justify-content: space-around para isso

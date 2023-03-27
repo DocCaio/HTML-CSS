@@ -1,0 +1,96 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-10">
+         
+
+
+
+    <form #form="ngForm" [formGroup]="pecaForm" (submit)="submit()">
+              
+      <div class="form-group">
+        <label for="nome">nome</label>
+        <input type="text" class="form-control" id="nome" formControlName="name">
+        <div class="alert alert-danger" *ngIf="pecaForm.get('nome').errors?.required  || pecaForm.get('nome').errors?.minlenght || pecaForm.get('nome').errors?.maxlenght">
+        Informe o seu nome corretamente !
+        </div>
+
+      </div>
+
+
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" class="form-control" id="email" formControlName="email">
+
+        <div class="alert alert-danger"  
+        *ngIf="pecaForm.get('email').errors?.required  || pecaForm.get('email').errors?.minlenght || pecaForm.get('email').errors?.maxlenght">
+          Informe o seu e-mail corretamente !
+        </div>
+
+      </div>
+
+      
+      <div class="form-group">
+        <label for="tlelfone">Telefone</label>
+        <input type="text" class="form-control" id="telefone" formControlName="telefone">
+      </div>
+
+
+      <div class="alert alert-danger"  
+      *ngIf="pecaForm.get('telefone').errors?.required">
+        Informe o seu telefone corretamente !
+      </div>
+
+      <div class="form-group">
+        <label for="nascimento">Data de nascimento</label>
+        <input type="dste" class="form-control" id="idade" formControlName="idade">
+      </div>
+
+
+      <div class="form-group">
+        <label for="idade">Idade</label>
+        <input type="date" class="form-control" id="idade" formControlName="idade">
+      </div>
+
+      <div class="alert alert-danger"  *ngIf="pecaForm.get('nascimento').errors?.required">
+        Informe sua idade corretamente !
+      </div>
+
+
+      <div class="form-group">
+        <h3>Gênero</h3>
+        <div class="form-check">
+        <input class="form-check-imput" type="radio" name="genero" id="masculino" value="m" formControlName="genero">
+        <label class="form-check-label" for="masculino">Masculino</label>
+        </div>
+      </div>
+
+      <div class="alert alert-danger"  
+        *ngIf="pecaForm.get('genero').errors?.required">
+          Selecione o genero !
+      </div>
+
+
+      <div class="form-check">
+        <input class="form-check-imput" type="radio" name="genero" id="feminino" value="f" formControlName="genero">
+        <label class="form-check-label" for="feminino">Feminino</label>
+      </div>
+
+      <input type="submit" class="btn btn-primary mt-4" value="Salvar">
+
+
+    </form>
+
+
+
+
+
+
+
+              
+    </div>
+  </div>
+
+
+</div>
+        

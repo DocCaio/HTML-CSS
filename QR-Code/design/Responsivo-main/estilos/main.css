@@ -1,0 +1,120 @@
+.center {
+    width: 100%;
+}
+
+.foto-central{
+    display: none;
+}
+
+.center_texto__desk{
+display: none;
+}
+
+.botao__link__desk{
+display: none;
+}
+
+.frase {
+    font-family: var(--font-primaria);
+    font-weight: 700 bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+.frase__link {
+    font-family: var(--font-secundaria);    
+    text-align: center;    
+    color: grey;  
+
+    }
+
+    .botao {
+    display: flex;
+    justify-content: center;
+       
+    }
+
+    .botao__link {
+    display: flex;
+    justify-content: center;    
+    gap: 16px;
+    border: 2px  solid  ;
+    width: 50%;
+    text-align: center;
+    border-radius:8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15.5px 0;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: var(--cor-branca);    
+    background : var(--cor-preta);
+    font-family: var(--font-secundaria) ;
+    }
+
+    .botao__link:hover {
+        background: var(--cor-branca);
+        color:var(--cor-preta) ;        
+
+    }
+
+    @media screen and (min-width:1440px) {
+        .center__texto{
+        display: none;
+        }
+       .center_texto__desk{
+       display: flex;
+       flex-direction: row;
+        }
+
+        .foto-mobile{
+            display: none;
+           }
+           .foto-central {
+               display: flex;
+               text-align: end;
+               text-align:end;              
+               width: 40%;
+              
+           }
+
+        .botao__link {
+            display: none;
+
+        }
+
+        .botao__link__desk{
+            display: flex;
+            justify-content: center;    
+            gap: 16px;
+            border: 2px  solid  ;
+            width: 10%;
+            text-align: center;
+            border-radius:8px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 15.5px 0;
+            margin-top: 2rem;
+            text-decoration: none;
+            color: var(--cor-branca);    
+            background : var(--cor-preta);
+            font-family: var(--font-secundaria) ;
+
+        }     
+
+        .frase__desk {
+            font-family: var(--font-primaria);
+            font-weight: 700 bold;
+            font-size: 36px;
+            text-align: start;
+            margin-top: 1em;
+        }
+        
+        .frase__link__desk{
+        font-family: var(--font-secundaria);    
+        text-align: start;    
+        color: grey;         
+        }
+    }

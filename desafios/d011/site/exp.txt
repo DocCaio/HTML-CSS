@@ -1,0 +1,36 @@
+<script>
+function lampada() {
+    var x = document.getElementById("demo");
+    x.style.background = "black";
+}
+function exibir() {
+    var nome = document.getElementById('nome').value;
+	var sobrenome = document.getElementById('sobrenome').value;
+	var email = document.getElementById('email').value;
+	var telefone = document.getElementById('telefone').value;
+	var assunto = document.getElementById('assunto').value;
+	var comentario = document.getElementById('comentario').value;
+	document.write(" Nome:"+nome);
+	document.write(" Sobrenome:"+sobrenome);
+	document.write(" Email:"+email);
+	document.write(" Telefone:"+telefone);
+	document.write(" Assunto:"+assunto);
+	document.write(" Comentario:"+comentario);
+}
+</script>
+
+
+<body id="demo">
+	<button onclick="lampada()"><img src="http://icons.iconarchive.com/icons/pixelkit/swanky-outlines/64/15-Light-Bulb-icon.png"></button>
+
+
+Serve para "apagar" E ACENDER A LUZ do site
+
+
+
+
+    <button onclick="exibir()">dados</button>
+
+
+
+ serve para exibir os dados do formulario.

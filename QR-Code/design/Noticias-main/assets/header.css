@@ -1,0 +1,26 @@
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em ;
+}
+
+.logos__desk {
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+    /*.logos__desk {
+     display: flexbox;
+
+    } */
+
+    .foto-desk {
+        width: 50%;
+    }
+
+    .foto-mobile {
+        display: none;
+
+    }
+    
+}

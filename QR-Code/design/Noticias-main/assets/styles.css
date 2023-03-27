@@ -1,0 +1,16 @@
+
+
+:root {
+    --cinza:  hsl(236, 13%, 42%);
+    --branco:hsl(36, 100%, 99%);
+    --vermelho: hsl(5, 85%, 63%);
+    --laranja:hsl(35, 77%, 62%);
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: 'Inter', sans-serif;
+    --azul: hsl(240, 100%, 5%);
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+

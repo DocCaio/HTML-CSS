@@ -1,0 +1,1 @@
+ ao usarmos o & evitamos a repetição da palavra “component” e com o nesting é possível fazer a referência que logo e txt estão dentro do bloco component.

@@ -1,0 +1,9 @@
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/div
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/article
+
+
+https://css-tricks.com/almanac/properties/g/gap/
+
+
+https://www.alura.com.br/artigos/css-guia-do-flexbox

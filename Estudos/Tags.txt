@@ -1,0 +1,45 @@
+Ul : Lista não ordenadas (sem ordem )
+
+ol  : Listas ordenadas (com ordem)
+
+li lista
+
+
+padding :  preencimento interno
+
+margim : preenchimento (externo  cima direita baixo esqerda) 
+
+
+dispaly : A propriedade display permite que você defina a maneira como determinado elemento HTML deve ser renderizado.
+
+Em comparação com display: inline (a lista fica na mesma linha), a principal diferença é que display: inline-block permite definir uma 
+largura e altura no elemento.
+
+Além disso, com display: inline-block, as margens/preenchimentos superiores e inferiores são respeitados, mas com display: inline eles 
+
+não são.
+
+display com o valor inline-block O tamanho pode ser ajustado, tanto na largura, quanto na altura.
+
+A tag <a> serve justamente como uma âncora, um link, que vai nos levar para outro ponto na internet.
+
+
+Nav navegação   representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com 
+links de navegação
+
+text-decoration restira a decoração do texto , o sublinhado da palavras.
+
+text-transform: text-transform é a responsável pela transformação do texto 
+
+vertical-align : posicionamanto vertical 
+
+Com o position: absolute, eu consigo posicionar meu elemento em qualquer lugar da página.
+
+Hover : Passa o mause e muda a cor
+active : elementos ativos , ação.
+
+form : iniciar uma criação de  formulario
+input:adiconar informações , caix para ser digitada , existem impute do tipo text , submit e eraser.
+label:adicinar informações do tipo texto para oriantar oque devemos digitar no input.
+
+ Nmae : A propriedade name só pode ser "preenchida" uma única vez, por isso que, quando eu seleciono um dos itens, ele desmarca o outro, mantendo somente um selecionado.

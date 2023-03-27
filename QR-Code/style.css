@@ -1,0 +1,12 @@
+ :root {
+    --font-padrao: 11px;  
+    --font-outfit: 'Outfit', sans-serif;
+    --text-alinhado: center;
+    --azul: hsl(228, 45%, 44%); 
+    --branco: hsl(0, 0%, 100%);
+    --cinza-calro: hsl(212, 45%, 89%);
+    --azul-cinza: hsl(220, 15%, 55%);
+    --azul-escuro: hsl(218, 44%, 22%);
+
+
+ }

@@ -1,0 +1,61 @@
+.menu {
+    display: flex;
+    justify-content: space-between; 
+
+
+}
+
+.logo {
+    display: flex;
+    padding: 1em;
+  
+}
+
+.menuzinho {
+    display: flex;    
+    padding: 1em;
+   
+}
+
+.registro , .login{
+display: none;
+}
+
+@media screen and (min-width:1440px) {
+    .logo__marca{
+    width: 100%;
+    margin-top: 1em;
+    }
+    .menuzinho{
+        display: none;
+
+    }
+
+    .menu__canto__desk{
+    display: flex;
+    margin: 1em;
+    gap: 20px;
+    }
+
+    .login {      
+        
+    margin-top: 2em;
+    }
+
+    .registro{
+        gap: 16px;
+        border: 3px  solid  ;
+        width: 100%;            
+        border-radius:10px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 15.5px ;            
+        text-decoration: none;
+        color: var(--cor-branca);    
+        background : var(--cor-preta);
+        font-family: var(--font-secundaria) ;
+    }
+
+   
+        
+}

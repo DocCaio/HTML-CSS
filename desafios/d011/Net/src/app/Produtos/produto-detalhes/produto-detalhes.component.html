@@ -1,0 +1,70 @@
+<!-- 
+  Comentei aqui pois ele é do módulo raiz
+<app-header></app-header>
+-->
+
+
+
+<div class="container" style="margin-top: 100px;">
+  <div class="row justify-content-center">
+    
+    <div class="col-10">
+
+
+        <div class="panel panel-primary border border-primary bg-light mt-3 rounded">
+
+            <div class="panel-heading bg-primary text-white text-center pb-1 pt-1"> <h5>Detalhes do aluno</h5> </div>
+      
+            <div class="panel-body">
+
+                <div class="imgcontainer">
+                  <!--
+                    <img src="../../../assets/img/alunos/aluno-01.jpg" class="avatar">
+                  -->
+                  
+                  <h5>{{produto.nome}}</h5>
+                </div>
+
+                
+      
+              <form class="m-3">
+                  <div class="form-group">
+                    <label for="id">ID</label>
+                    <input type="id" class="form-control" id="id" name="id" [ngModel]="produto.id" readonly>
+                  </div>
+              
+                  <div class="form-group">
+                      <label for="id">Nome</label>
+                      <input type="id" class="form-control" id="nome" name="nome" [ngModel]="produto.nome" readonly>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="id">Preço</label>
+                    <input type="number" class="form-control" id="preco" name="preco" [ngModel]="produto.preco" readonly>
+                  </div>
+              
+                  <div class="form-group">
+                      <label>Descrição</label>
+                      <textarea>{{produto.descricao}}</textarea>
+                  </div>
+              
+                  
+              </form>
+      
+            </div>
+      
+      
+            <div class="panel-footer bg-primary p-2">
+      
+            </div>
+            
+        </div>
+    
+
+    </div>
+
+
+</div>
+</div>
+
+    

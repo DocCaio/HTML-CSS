@@ -1,0 +1,8 @@
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+
+A propriedade flex-basis serve para definir uma largura ou altura para o flex item.
+ Se o flex container tiver com flex-direction: column, o flex-basis no flex item servirá para definir uma height.
+ Caso o flex-direction: row, ele funciona como um width.

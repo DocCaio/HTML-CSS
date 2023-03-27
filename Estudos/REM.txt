@@ -1,0 +1,6 @@
+1 rem = 16px  
+
+https://www.alura.com.br/artigos/guia-de-unidades-no-css
+
+
+https://www.alura.com.br/apostila-html-css-javascript/13CA-medidas-relativas-em-rem?gclid=EAIaIQobChMImKKL-q6S_QIVBkFIAB2XdAj1EAAYASAAEgI0AvD_BwE

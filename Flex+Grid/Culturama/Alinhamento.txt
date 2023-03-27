@@ -1,0 +1,9 @@
+Alinhamento no Grid
+Para gerar um alinhamento vertical dentro do Grid, utiliza-se a propriedade align. E para criar um alinhamento horizontal, usa-se
+ a propriedade justify. Ambas são acompanhadas de outras propriedades que vão dizer se o alinhamento será de um único item, todos 
+os itens ou do container.
+
+Alinhamento no Flex
+No flex, não utiliza-se o justify para alinhar horizontalmente como no grid, o alinhamento no flex irá ser determinado pela
+ propriedade flex-direction. Se for o padrão, ou seja, flex-direction: row, o align irá alinhar na direção vertical e caso seja
+ flex-direction: column que está sendo aplicado, align irá alinhar na direção horizontal.

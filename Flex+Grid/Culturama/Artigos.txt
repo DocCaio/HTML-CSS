@@ -1,0 +1,47 @@
+
+A propriedade gap do flexbox e grid, é utilizada para aplicar distância no sentido horizontal e vertical entre elementos em um layout,
+ sua função é similar à propriedade margin.
+
+column-gap
+
+A propriedade column-gap serve para criar uma lacuna vertical entre elementos.
+
+row-gap
+
+Já a propriedade row-gapserve para criar uma lacuna horizontal entre elementos.
+
+gap
+
+E caso você utilize simplesmente a propriedade gap, ela irá criar espaçamentos tanto no sentido vertical quanto horizontal.
+
+
+Trabalhando com Linhas e Colunas
+
+No flex, quando utilizamos a propriedade flex-direction: row, estamos organizando os elementos um ao lado do outro, trabalhando
+ com o eixo x ou horizontal.
+
+Já no grid, quando utilizamos a propriedade grid-template-rows estamos calculando a altura da linhas e consequentemente, 
+modificamos o eixo y ou vertical.
+
+O mesmo ocorre com as colunas, no flex a propriedade flex-direction: column dispõe os elementos um abaixo do outro, ou seja,
+ no eixo y ou vertical.
+
+E no grid, a propriedade grid-template-columns serve para criar e calcular a largura das colunas, sendo assim, estamos
+ alterando o eixo x ou horizontal.
+
+
+
+https://www.alura.com.br/artigos/css-guia-do-flexbox
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
+
+
+A propriedade grid-template-areas cria e nomeia áreas um grid, determinando quantas linhas e colunas tais áreas ocuparão.
+ A cada par de aspas duplas temos uma linha desse grid, e cada elemento representa uma coluna. A área nomeada como imagem,
+ por exemplo, ocupará a primeira linha e a primeira e segunda coluna.
+
+
+
+Assim como a propriedade grid-template-columns determina a largura de cada coluna, a grid-template-rows determina a altura de cada linha.

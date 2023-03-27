@@ -1,0 +1,7 @@
+ -Barra de rolagem
+
+overflow: scroll;
+
+- Formatar terxto , item um do lado do outro
+
+ white-space: nowrap;

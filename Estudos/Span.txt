@@ -1,0 +1,15 @@
+ A tag <span>, diferente da strong a span não deixa em negrito por padrão 
+mas é uma ótima forma de marcar trechos do texto em HTML. 
+
+
+https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css
+
+
+
+Na prática, a tag span serve para que você seja capaz de representar elementos visuais
+ destacados de um todo e não representa nada por natureza. Por não ter semântica própria, é possível 
+representar diversos tipos de formatações através desta tag, inclusive formatações CSS.
+
+A tag span é igual a tag div, ambas servem para delimitar e agrupar outros elementos em HTML. 
+O que as diferencia é que a tag div faz o
+ agrupamento de elementos a nível de bloco e a tag span é a nível de linha.

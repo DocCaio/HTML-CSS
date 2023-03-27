@@ -1,0 +1,51 @@
+A diferença entre <div> e <section> é que no primeiro caso, trata-se apenas de uma divisão visual. Já no caso da <section> teremos 
+uma divisão por conteúdo complexo, semanticamente homogêneo.
+
+Na parte de benefícios, também possuímos conteúdos fechados em si, neste caso também substituiremos a <div> por <section>
+
+float:left quanto o float: right servem para que o elemento se destaque na tela, deixe de ocupar o espaço em que estava, para que os outros
+ elementos possam se posicionar ao redor dele.
+
+Como limpar o float, com a propriedade clear do CSS.
+
+No CSS temos algo chamado pseudo-elementos. Conhecemos alguns deles, como :hover, :active, :visited, :required. Tais recursos são utilizados para marcar melhor nossos 
+elementos e gerar um comportamento mais interessante em nosso site.
+
+
+first-child so a primeira
+
+last-child a ultima
+
+Por fim, temos a possibilidade de selecionar qualquer elemento da lista por via do nth-child(), que receberá o número que quisermos, como por exemplo 4, 
+que se refere ao quarto elemento da lista. Podemos ainda utilizar valores como 2n com o nth-child(), o que quer dizer marcamos todos os elementos pares da lista,
+ isto é, o segundo, quarto e sexto elemento da lista ficam em negrito.
+
+Além do degradê linear(linear-gradient) temos ainda a opção radial(radial-gradient), que organiza a transição de cores de maneira circular. Nosso site terá 
+uma gradação de cinza linear.
+
+No CSS, como fazemos para marcar esse parágrafo de vermelho? Podemos tentar escrever:
+main p {
+    background: red;
+}
+
+om os seletores avançados do CSS, podemos selecionar os filhos diretos de <main>, para tanto, utilizaremos o sinal >, e todo os outros parágrafos serão ignorados, afinal 
+são filhos diretos da <section> e não de <main>.
+main > p {
+    background: red; 
+}
+
+Neste caso, usamos img como elemento âncora e para o primeiro irmão usamos o sinal de "+"
+img + p { 
+    background: blue;
+Para selecionar todos os parágrafos localizados depois de uma imagem usamos o seletor ~
+img ~ p {
+    background: yellow
+} 
+
+É importante lembrar que um seletor pode sobrescrever o outro, pois todos possuem a mesma força. Os seletores avançados nos ajudam a criar estilos mais complexos e utilizar o CSS de uma maneira incrível, com uma autonomia maior do HTML.
+
+No CSS podemos, inclusive, excluir itens específicos. Se quisermos excluir todos os parágrafos que não compõe missao, escreveremos:
+.principal p:not(#missao) {
+    background: orange;
+}
+A exclusão é um elemento poderoso no CSS, principalmente quando realizamos manutenção em algum código que já existe e que não devemos modificar tanto o HTML.

@@ -1,0 +1,66 @@
+body {
+    background-color: var(--azul);
+}
+
+.secao { 
+         
+    align-items: center;
+    text-align: center;       
+    border-radius:1rem;
+    padding: 1rem 1rem;
+    background: var(--branco);
+    margin:15rem 1.2rem;
+    
+    
+}
+
+.secao-div {
+ flex-direction: column-reverse;
+
+ 
+}
+
+
+
+
+
+.secao-titulo {
+    font-family: var(--font-outfit);
+    font-weight: 700;
+    margin-top: 2em;
+    text-align: center;
+    
+}
+
+.secao-texto {
+    font-family: var(--font-outfit);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 1.5em;
+    text-align: center;
+    
+
+}
+
+
+.foto-mobile {   
+ width: 100%;
+ border-radius: 1em;
+}
+
+@media (min-width:1440px) {
+
+   
+    .foto-mobile {
+        width: 30%;
+    } 
+
+    .secao {
+        width: 70%;
+        align-items: center;
+        text-align: center;            
+             
+       
+    }
+    
+}
