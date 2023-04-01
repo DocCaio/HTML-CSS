@@ -8,4 +8,10 @@ xl	1280px	@media (min-width: 1280px) { ... }
 2xl	1536px	@media (min-width: 1536px) { ... }
 
 
+Tailwind / Bootstrap - frameworks CSS
+NextJs - framework JavaScript cuja maior parte é React
+SASS - pré-processador CSS
+React - uma Lib javascript
+
+
 
