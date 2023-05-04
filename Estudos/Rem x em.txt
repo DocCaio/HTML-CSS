@@ -1,0 +1,4 @@
+Basicamente: 
+REM -> Olha para a fonte base do navegador da pessoa. O padrão é 16px, mas pessoas que tem alguma condição visual podem precisar aumentar a fonte base delas
+
+EM -> Olha para a fonta do pai. Digamos que voce tem uma div que colocou font-size 30px. Se colocar no p dentro dessa div a font-size .5em, a font-size do p vai ser 15px. E aí se você nesse p colocar o padding como 1em, por exemplo, o padding vai olhar para a font-size do próprio p
