@@ -1,0 +1,15 @@
+Neste trabalho usamos a paginação , Módulos e Guarda de Rotas Filhas
+
+Nós usamos um grande bloco de links conectados para nossa paginação, fazendo-os fácil de clicar e escalar. A paginação é feita com elementos HTML de lista para que leitores de telas possam anunciar o número de links disponíveis. Use um elemento <nav> como envolto para identificá-lo como uma seção de navegação aos leitores de telas e outras tecnologias assistivas.
+
+Além do mais, já que as páginas possuem mais de uma seção de navegação, normalmente, é aconselhado usar um aria-label descritivo, no <nav>. Por exemplo, se o componente de paginação é usado para navegar entre um conjunto de resultados de pesquisa, uma boa aria-label seria aria-label="Páginas dos resultados de pesquisa".
+
+Um módulo angular é um conjunto de componentes básicos angulares, como componentes , diretivas , serviços etc. Um aplicativo pode ter mais de um módulo.
+
+Um módulo pode ser criado usando o @NgModuledecorador.
+
+
+O que importa para nós neste momento é a constante “routes”, que será o local onde colocaremos nossa estrutura de rotas.
+
+Em adicional, vamos criar algumas páginas (Components) para poder exemplificar melhor.
+As rotas são definidas por dois elementos principais, o Path, que é o caminho (URL) e o Componente, que é o componente a ser carregado. Ainda existem outras formas de carregar páginas mais eficientes, como carregamento assíncrono, via módulos,

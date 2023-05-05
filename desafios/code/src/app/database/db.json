@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Bola de futebol",
+      "preco": 1.99,
+      "descricao": "bola para jogos de campo"
+    },
+    {
+      "id": 2,
+      "nome": "Tênis Nike",
+      "preco": 4.99,
+      "descricao": "Tênis de corrida"
+    },
+    {
+      "id": 3,
+      "nome": "Chuteira",
+      "preco": 2.99,
+      "descricao": "Chuteira de futebol society"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!---
+<h1>Exemplo de pipe puro</h1>
+<div>
+    <label>Base: </label>
+        <input type="number" name="base"[(ngModel)]="base">
+        </div>
+
+        <div>
+            <label>Expoente: </label>
+            <input type="number" name="expoente"[(ngModel)]="expoente">
+        </div>
+
+        <div>
+           <strong>Resultado:</strong> {( base | calcPotencia; expoente )}
+
+        </div>
+
+    -->
+    <h1>Exemplo de pipe impuro</h1>
+
+    <label>Nome: </label>
+        <input type="text" name="nome"[(ngModel)]="nome">
+        </div>
+        <div>
+            <button (click)="adicionar()">add</button>
+        </div>
+
+           
+        <div>
+            <button (click)="adicionarRef()">addRef</button>
+        </div>
+
+        
+
+    <div *ngFor="let obj of (produto | exemploProdutoPrecoImpuro)">
+           <strong>{{obj.nome}}</strong>
+    </div>
