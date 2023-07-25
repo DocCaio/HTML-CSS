@@ -1,0 +1,64 @@
+.sec-extra {
+ text-align: center;
+ margin-top: 1em;
+
+.title-3 {
+    font-family: $fonte;
+    font-weight: 500 bolder;
+    font-size: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.p-extra {
+    font-family: $fonte;
+    font-weight: 400;
+    text-align: center;
+}
+
+.button-extra {
+background: #FFFFFF;
+border: 1px solid #FBDA40;
+box-shadow: 4px 2px 4px #FBDA40;
+border-radius: 4px;
+padding: 11px 15px;
+gap: 10px;
+margin-top: 1em;
+}
+
+
+}
+
+.sec-extra-2 {
+    text-align: center;
+    margin-top: 1em;
+
+    .title-4 {
+        font-family: $fonte;
+        font-weight: 500 bolder;
+        margin-bottom: 1em; 
+        
+    }
+    .p-extra-2 {
+        font-family: $fonte;
+        font-weight: 400;
+        
+
+    }
+    
+}
+
+.sec-extra-3 {
+    text-align: center;
+    flex-direction: column;
+
+    .Blog{ 
+        padding: 1em;   
+      border-radius: white 12px solid;
+    }
+
+    .img-extra {
+        width: 70%;
+    }
+    
+}

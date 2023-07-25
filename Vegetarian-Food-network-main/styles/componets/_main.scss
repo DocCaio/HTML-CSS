@@ -1,0 +1,78 @@
+@import '../abstract/variaveis';
+
+
+.containner-2 {
+ margin-left: 1em;
+ text-align: center;
+
+ .sec-main {
+    display: flex;
+    flex-direction: column;
+ }
+ .img-main {
+    width: 30%;
+ }
+
+.title {
+    font-family: $fonte;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sub-title {
+    font-family: $fonte;
+    font-size: 300;
+    font-size: 15px;
+    color: $cor-header;
+}
+
+
+.button-main {
+    margin-right: 1em;
+    background: #FFFFFF;
+    border: 1px solid $cor-shadow;
+    box-shadow: 4px 2px 4px $cor-shadow;
+    border-radius: 4px;
+    padding: 11px 15px;
+    gap: 10px;
+    margin-top: 1em;  
+
+
+
+    
+}
+
+ .sec-main-2 {
+     display: flex;
+     margin-top: 1em;   
+}
+
+.img-main-2 {
+    display: flex;
+    width:25%;    
+
+}
+
+.title-2 {
+    font-family: $fonte;        
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.p-main{
+    font-family: $fonte;        
+    font-weight: 500;
+}
+
+.ul-main {
+    font-family:$fonte;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+
+
+}
+
+
+

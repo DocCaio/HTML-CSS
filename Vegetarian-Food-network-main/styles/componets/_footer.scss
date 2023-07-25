@@ -1,0 +1,29 @@
+.containner-3 {
+   text-align:center ;
+   
+
+   .form-control {
+    background-image: url("/img/banner.png");
+    padding: .7em;
+    margin: 0.5 1em;
+
+   }
+    
+      
+      .form-control input {
+         width: 50%;
+         border-radius: 42px;
+         
+         
+      }
+      
+      .form-control button {        
+        
+        background: $cor-buttom;
+        box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+        border-radius: 33px;
+      }
+
+    
+
+}

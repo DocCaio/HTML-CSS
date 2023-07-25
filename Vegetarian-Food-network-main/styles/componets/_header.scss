@@ -1,0 +1,32 @@
+@import '../abstract/variaveis';
+
+.containner  {
+    display: flex;
+    margin-top: 2em;
+
+    .menu {
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }  
+   
+
+   
+
+    .list {
+        display: flex;
+        font-size: 0.5em;
+        font-family: $fonte;
+    }
+   
+     
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+.containner {
+  display: flex;
+  margin-top: 2em;
+}
+.containner .menu {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+.containner .list {
+  display: flex;
+  font-size: 0.5em;
+  font-family: "Jost", sans-serif;
+}
+
+.containner-2 {
+  margin-left: 1em;
+  text-align: center;
+}
+.containner-2 .sec-main {
+  display: flex;
+  flex-direction: column;
+}
+.containner-2 .img-main {
+  width: 30%;
+}
+.containner-2 .title {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.containner-2 .sub-title {
+  font-family: "Jost", sans-serif;
+  font-size: 300;
+  font-size: 15px;
+  color: #FACE00;
+}
+.containner-2 .button-main {
+  margin-right: 1em;
+  background: #FFFFFF;
+  border: 1px solid #FBDA40;
+  box-shadow: 4px 2px 4px #FBDA40;
+  border-radius: 4px;
+  padding: 11px 15px;
+  gap: 10px;
+  margin-top: 1em;
+}
+.containner-2 .sec-main-2 {
+  display: flex;
+  margin-top: 1em;
+}
+.containner-2 .img-main-2 {
+  display: flex;
+  width: 25%;
+}
+.containner-2 .title-2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.containner-2 .p-main {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+.containner-2 .ul-main {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+.sec-extra {
+  text-align: center;
+  margin-top: 1em;
+}
+.sec-extra .title-3 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500 bolder;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.sec-extra .p-extra {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.sec-extra .button-extra {
+  background: #FFFFFF;
+  border: 1px solid #FBDA40;
+  box-shadow: 4px 2px 4px #FBDA40;
+  border-radius: 4px;
+  padding: 11px 15px;
+  gap: 10px;
+  margin-top: 1em;
+}
+
+.sec-extra-2 {
+  text-align: center;
+  margin-top: 1em;
+}
+.sec-extra-2 .title-4 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500 bolder;
+  margin-bottom: 1em;
+}
+.sec-extra-2 .p-extra-2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.sec-extra-3 {
+  text-align: center;
+  flex-direction: column;
+}
+.sec-extra-3 .Blog {
+  padding: 1em;
+  border-radius: white 12px solid;
+}
+.sec-extra-3 .img-extra {
+  width: 70%;
+}
+
+.containner-3 {
+  text-align: center;
+}
+.containner-3 .form-control {
+  background-image: url("/img/banner.png");
+  padding: 0.7em;
+  margin: 0.5 1em;
+}
+.containner-3 .form-control input {
+  width: 50%;
+  border-radius: 42px;
+}
+.containner-3 .form-control button {
+  background: #F2B133;
+  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+  border-radius: 33px;
+}
+
+body {
+  background-color: #FDF5E6;
+}/*# sourceMappingURL=style.css.map */
