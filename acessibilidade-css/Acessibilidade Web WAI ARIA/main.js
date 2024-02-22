@@ -1,8 +1,21 @@
+function gerenciarFocoModal(modalId) {
+  const modal = document.querySelector(`#${modalId}`);
+  const elementosModal = modal.querySelectorAll(
+    'a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])'
+  );
+
+  const primeiroElemento = elementosModal[0];
+  const ultimoElemento = elementosModal[elementosModal.length - 1];
+
+  primeiroElemento.focus();
+}
+
 function alternarModal(modalId, abrir) {
   const modal = document.querySelector(`#${modalId}`);
 
   if (abrir) {
     modal.style.display = "block";
+    gerenciarFocoModal(modalId);
   } else {
     modal.style.display = "none";
   }
@@ -13,6 +26,9 @@ function alternarModal(modalId, abrir) {
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     alternarModal("ver-modal-inscrito", false);
+    alternarModal("ver-modal-contato", false);
+    alternarModal("ver-modal-enviado", false);
+
     document.querySelectorAll(".cabecalho__lista-item").forEach((item) => {
       alternarSubmenu(item, false);
     });
